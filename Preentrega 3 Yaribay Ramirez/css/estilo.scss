@@ -1,0 +1,140 @@
+$color1: pink;
+$color2: black;
+$color3: white;
+$porcentaje: 100%;
+$centrado: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500;700&family=Noto+Sans+TC:wght@100&family=Rubik:wght@300&display=swap');
+/*font-family: 'Edu SA Beginner', cursive;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color: $color2;
+}
+.navbar{
+    background-color: $color1; 
+    height: 70px;
+    font-size: 22px;
+    padding: 20px;  
+    text-align: $centrado;
+    font-family: 'Rubik'sans-serif;     
+
+    img{
+        height: 40px;
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: $color3;
+    }
+    a:hover{ 
+        color: $color2 !important;
+    }
+}
+
+.dropdown-menu {
+    background-color: $color1;
+    border: $color2;
+}
+.jumbotron {
+    height: 700px;
+    width: $porcentaje;
+    background-image: url(../multimedia/Logo.jpeg);
+    background-size: cover;
+    background-position: right;
+}
+.jumbotron2{
+    text-align:$centrado;
+    height: 400px;
+    font-size: 20px;
+    width: $porcentaje;
+    background-image: url(../multimedia/nailspolish.jpg);
+    background-size: cover;
+}
+.jumbotron3{
+    text-align:$centrado;
+    height: 400px;
+    font-size: 20px;
+    width: $porcentaje;
+    background-image: url(../multimedia/nailspolishpink.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Edu SA Beginner', cursive;
+}
+.estetica:hover{
+    height: 100px;
+    width: 800px;
+    transition: 2s;
+    transform: scale(1.2);
+}
+.somos{ 
+    font-size: 30px;
+}
+#contacto, .mail, h2{
+    color: $color1 ;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Noto Sans TC', sans-serif
+}
+.nuestrosserv{
+    text-align: $centrado;
+    padding: 20px;
+}
+.sec{
+    width: 50%;
+    height: $porcentaje;
+}
+.table-servicios, .table-equipo {
+    padding: 50px;
+    background-image: url(../multimedia/Corona\ fondo.jpeg);
+    height: 100vh;
+    background-position: $centrado;
+    background-repeat: no-repeat;
+}
+.sec {
+    width: 800px;
+    height: $porcentaje;
+    background-position: $centrado;
+}
+.img-fluid {
+    width: 500px;
+    height: 300px;
+    padding-bottom: 20px;
+
+}
+
+footer{
+    background-color: $color1;
+    color: $color3;
+    text-align: center;
+    padding: 15px;
+    .redes{
+        margin-top: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+    a{
+        color: $color3;
+    }
+    i{
+        font-size: 35px;
+        letter-spacing: 15px;
+    }
+}
+@media only screen and (min-width:0) and (max-width: 576px) {
+    .navbar-collapse{
+        background-color: $color1;   
+    }
+    }

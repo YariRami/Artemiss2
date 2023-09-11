@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500;700&family=Noto+Sans+TC:wght@100&family=Rubik:wght@300&display=swap");
+/*font-family: 'Edu SA Beginner', cursive;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span {
+  color: black;
+}
+
+.navbar {
+  background-color: pink;
+  height: 70px;
+  font-size: 22px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Rubik" sans-serif;
+}
+.navbar img {
+  height: 40px;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover {
+  color: black !important;
+}
+
+.dropdown-menu {
+  background-color: pink;
+  border: black;
+}
+
+.jumbotron {
+  height: 700px;
+  width: 100%;
+  background-image: url(../multimedia/Logo.jpeg);
+  background-size: cover;
+  background-position: right;
+}
+
+.jumbotron2 {
+  text-align: center;
+  height: 400px;
+  font-size: 20px;
+  width: 100%;
+  background-image: url(../multimedia/nailspolish.jpg);
+  background-size: cover;
+}
+
+.jumbotron3 {
+  text-align: center;
+  height: 400px;
+  font-size: 20px;
+  width: 100%;
+  background-image: url(../multimedia/nailspolishpink.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Edu SA Beginner", cursive;
+}
+
+.estetica:hover {
+  height: 100px;
+  width: 800px;
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+.somos {
+  font-size: 30px;
+}
+
+#contacto, .mail, h2 {
+  color: pink;
+  text-decoration: underline;
+}
+
+p {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.nuestrosserv {
+  text-align: center;
+  padding: 20px;
+}
+
+.sec {
+  width: 50%;
+  height: 100%;
+}
+
+.table-servicios, .table-equipo {
+  padding: 50px;
+  background-image: url(../multimedia/Corona\ fondo.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec {
+  width: 800px;
+  height: 100%;
+  background-position: center;
+}
+
+.img-fluid {
+  width: 500px;
+  height: 300px;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: pink;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+footer .redes {
+  margin-top: 20px;
+}
+footer p {
+  font-size: 18px;
+}
+footer a {
+  color: white;
+}
+footer i {
+  font-size: 35px;
+  letter-spacing: 15px;
+}
+
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  .navbar-collapse {
+    background-color: pink;
+  }
+}/*# sourceMappingURL=estilo.css.map */
